@@ -15,8 +15,8 @@ body {
 
 .first-container {
     position: relative;
-    padding-top: 10%;
-    padding-bottom:10%;
+    padding-top: 15%;
+    padding-bottom:15%;
     text-align: center;
     overflow: hidden;
     border: solid 2px blue;
@@ -28,6 +28,15 @@ body {
 
 .second-container {
     border:solid 2px green;
+}
+
+.second-container i {
+    font-size:40px;
+}
+
+.spacing {
+    padding-left:20px;
+    padding-right:10px;
 }
 
 .second-container h1, .third-container h1, .fourth-container h1 {
@@ -69,5 +78,19 @@ body {
     height:45px;
     padding-top:30px;
     text-align:center;
-    background-color:lightslategray;
+    background-color: #e6c3f7;
+}
+
+.btn {
+    border-radius:4px;
+    background-color:pink;
+    text-decoration:none;
+    font-size:20px;
+    padding: 5px 50px 5px 50px;
+    color:black;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(pink, #cd84f1);
 }
