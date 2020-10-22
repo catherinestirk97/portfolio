@@ -13,10 +13,16 @@
 <body>
   <script src="app.js"></script>
     <div class="first-container">
-    <h1 class="typewriter-font">Hi, I'm Catherine.</h1>
+    <h1 class="typewriter-font">Hi, I'm Catherine<span class="full-stop">.</span></h1>
   <h2 class="small-heading">A junior web developer, with an interest in front end development.</h2>
-  <button onclick="scrollToAbout()">About</button> <button onclick="scrollToProjects()">Projects</button> <button onclick="scrollToContact()">Contact</button>
+  <div class="buttons">
+  <button class="btn-style"onclick="scrollToAbout()">About</button> <span class="spacing"></span> <button class="btn-style" onclick="scrollToProjects()">Projects</button> <span class="spacing"></span> <button class="btn-style" onclick="scrollToContact()">Contact</button>
   </div>
+  </div>
+
+  <!-- <div class="separator s-1">
+
+  </div> -->
 
   <div class="second-container">
     <h1 class="typewriter-font about">About</h1>
@@ -56,6 +62,7 @@
 
     </div>
   </div>
+
 
   <div class="fourth-container">
     <h1 class="typewriter-font contact">Contact</h1>
