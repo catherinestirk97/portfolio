@@ -25,12 +25,20 @@ body {
     padding-top:30px;
 }
 
+
 .btn-style {
     border:none;
     background-color:white;
     font-size:18px;
     font-family: 'Baloo Chettan 2', cursive;
+    text-decoration: underline;
 }
+
+.btn-style:hover {
+    font-size:25px;
+    background-color:#cd84f1;
+}
+
 
 .first-container {
     position: relative;
@@ -106,6 +114,7 @@ body {
 
 }
 
+
 /* .fourth-container {
     border:solid 2px pink;
 } */
@@ -127,6 +136,7 @@ body {
     color:black;
     cursor:pointer;
 }
+
 
 .btn:hover {
     background: linear-gradient(pink, #cd84f1);
