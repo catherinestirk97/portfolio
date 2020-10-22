@@ -33,12 +33,16 @@ body {
     font-size:18px;
     font-family: 'Baloo Chettan 2', cursive;
     text-decoration: underline;
+    color:#014a01;
+    font-weight:bold;
+    cursor:pointer;
 }
 
 .btn-style:hover {
     font-size:25px;
     background-color:#9CBA7F;
     border-radius:25%;
+    color:black;
 }
 
 
@@ -95,13 +99,10 @@ body {
     background:url(leaves.png);
 }
 
-/* .second-container, .third-container {
-    padding-top:2%;
-} */
-
-/* .third-container {
-    border:solid 2px red;
-} */
+.bold {
+    font-weight:bold;
+    color:#014a01;
+}
 
 .third-container a {
     text-align:center;
@@ -125,9 +126,9 @@ body {
 }
 
 
-/* .fourth-container {
-    border:solid 2px pink;
-} */
+.fourth-container a{
+    color:#014a01;
+}
 
 
 .footer{
