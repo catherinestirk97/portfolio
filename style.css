@@ -1,0 +1,53 @@
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.small-heading {
+    font-weight: normal;
+}
+
+.typewriter-font {
+    font-family: 'Special Elite', cursive;
+}
+
+.first-container {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom:10%;
+    text-align: center;
+    overflow: hidden;
+    border: solid 2px blue;
+}
+
+.first-container h1 {
+    font-size:70px;
+}
+
+.second-container {
+    border:solid 2px green;
+}
+
+.second-container h1, .third-container h1 {
+    font-size:50px;
+}
+
+.second-container, .third-container {
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:20%;
+    padding-left:20%;
+    line-height:150%;
+}
+
+.third-container {
+    border:solid 2px red;
+}
+
+.project-photo {
+    height:auto;
+    width:400px;
+}
