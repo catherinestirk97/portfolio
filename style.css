@@ -14,6 +14,7 @@ body {
 
 .typewriter-font {
     font-family: 'Special Elite', cursive;
+    color:#006400;
 }
 
 .full-stop {
@@ -36,7 +37,8 @@ body {
 
 .btn-style:hover {
     font-size:25px;
-    background-color:#cd84f1;
+    background-color:#9CBA7F;
+    border-radius:25%;
 }
 
 
@@ -46,6 +48,7 @@ body {
     padding-bottom:15%;
     text-align: center;
     overflow: hidden;
+    background:url(leaves.png);
     /* border: solid 2px blue; */
 }
 
@@ -67,6 +70,11 @@ body {
     font-size:40px;
 }
 
+.second-container i:hover {
+    font-size:50px;
+    color: #9CBA7F;
+}
+
 .spacing {
     padding-left:20px;
     padding-right:10px;
@@ -83,6 +91,7 @@ body {
     padding-right:20%;
     padding-left:20%;
     line-height:150%;
+    background:url(leaves.png);
 }
 
 .second-container, .third-container {
@@ -129,7 +138,7 @@ body {
 
 .btn {
     border-radius:4px;
-    background-color:pink;
+    background-color:#9CBA7F;
     text-decoration:none;
     font-size:20px;
     padding: 5px 50px 5px 50px;
@@ -139,5 +148,5 @@ body {
 
 
 .btn:hover {
-    background: linear-gradient(pink, #cd84f1);
+    background: linear-gradient(#9CBA7F, #608341);
 }
