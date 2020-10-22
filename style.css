@@ -51,3 +51,12 @@ body {
     height:auto;
     width:400px;
 }
+
+.grid-container {
+    display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap:25px;
+  grid-template-columns: auto auto;
+  padding:10px;
+}
+
