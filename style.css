@@ -41,7 +41,7 @@ body {
 .btn-style:hover {
     font-size:25px;
     background-color:#9CBA7F;
-    border-radius:25%;
+    border-radius:50px;
     color:black;
 }
 
